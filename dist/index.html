@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale+1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-	<title>Welcome to my portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
-<body>
-	<h1>Hello</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Welcome to my portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="home" id="bg-img">
+      <div class="overlay"></div>
 
-</body>
+      <h1 class="lg-heading">
+        Oliver <span class="text-secondary">Lennon</span>
+      </h1>
+      <h2 class="sm-heading">Software & Web Developer</h2>
+      <div class="icons">
+        <a href="#!">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a href="#!">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+      <div class="button__portfolio--wrapper">
+        <a href="#portfolio">
+            <button>See My Work</button>
+        </a>
+        
+      </div>
+    </section>
+    <div>
+      <header>
+        <div class="menu-btn">
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+        </div>
+        <nav class="menu">
+          <ul class="menu-nav">
+            <li class="nav-item">
+              <a href="#bg-img" class="nav-link">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">
+                My Work
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="portfolio" id="portfolio">
+		  <div id="img-box">
+		<img class="project-img" src="img/IELTSspeaking-project.png" />
+		</div>
+      </section>
+      <section class="about" id="about">
+        <h1>About</h1>
+      </section>
+	</div>
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+  </body>
 </html>
